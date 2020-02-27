@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script
+     src="https://code.jquery.com/jquery-3.4.1.min.js"
+     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+     crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css">
+    <title>Bidex Automobiles</title>
+</head>
+<body>    
+        <nav class="navbar navbar-expand-md navbar-light bg-light text-primary fixed-top">
+            <i class="material-icons" id="logo">directions_car</i>
+            <span class="navbar-text"><a href="#" class="navbar-brand">Bidex Auto</a></span>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse-target">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapse-target">
+                    <ul class="navbar-nav"> 
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="#dropdown-target" href="#">Sedans</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown-target">
+                                    <ul class="navbar-nav">
+                                     <a class="dropdown-item">fusion</a>
+                                     <a class="dropdown-item">fiesta</a>
+                                     <a class="dropdown-item">mustang</a> 
+                                     <a class="dropdown-item">corolla</a>
+                                     <a class="dropdown-item">yaris</a>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="#dropdown-target" href="#">SUVS</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown-target">
+                                <ul navbar-nav>
+                                        <a class="dropdown-item">ecosport</a>
+                                        <a class="dropdown-item">escape</a>
+                                        <a class="dropdown-item">edge</a> 
+                                        <a class="dropdown-item">explorer</a>
+                                        <a class="dropdown-item">expedition</a>
+                                       </ul></li>                
+                            <li class="nav-item"><a class="nav-link" href="#">coupes</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">hybrids</a></li>
+                        </ul>
+                        <ul class="navbar-nav ml-auto"> 
+                                <li class="nav-item"><a class="nav-link" href="#">owners</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">find a dealer</a></li>                
+                                <li class="nav-item"><a class="nav-link" href="#">shop</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">finance</a></li>
+                                <li class="nav-item"><a class="nav-link" href="location.html">location</a></li>
+                                
+                        </ul>
+            </div>
+            <!--<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse-target">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapse-target">
+                        <ul class="navbar-nav ml-auto"> 
+                                <li class="nav-item"><a class="nav-link" href="#">owners</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">find a dealer</a></li>                
+                                <li class="nav-item"><a class="nav-link" href="#">shop</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">finance</a></li>
+                            </ul>
+                </div>-->            
+        </nav>
+    <div class="container-fluid">
+        <div id="slides" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#slides" data-slide-to="0" class="active"></li>
+                    <li data-target="#slides" data-slide-to="1"></li>
+                    <li data-target="#slides" data-slide-to="2"></li>
+                    <li data-target="#slides" data-slide-to="3"></li>
+                    <li data-target="#slides" data-slide-to="4"></li>
+                </ul>
+                <div class="carousel-inner container-fluid" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="./images/carousel/architecture-automobile-cars-63294.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h1>Amazing Rides.Exceptional Performance</h1>
+                            <h3>Wide range of vehicles for your comfort</h3>
+                            <button type="button" class="btn btn-light btn-lg">View Gallery</button>
+                            <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/carousel/audi-automobile-car-lights-1149831 (1).jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                            <img src="./images/carousel/automobile-automotive-car-116675 (1).jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                            <img src="./images/carousel/automobile-car-car-brand-2723822.jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                            <img src="./images/carousel/automobile-cars-headlights-120049 (1).jpg" alt="">
+                    </div>
+                </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+
+    <div class="container-fluid">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h2 class="display-4">Vehicles and Current Offers</h2>
+            </div>
+        </div>
+    </div>
+    <br>
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="card-deck">
+                        <div class="col-md-4">
+                            <div class="card card-body h-100">
+                                <img class="card-img-top" src="./images/automobile-automotive-car-2414736.jpg" alt="">
+                                <div class="card-body">
+                                    <h3 class="card-title">Current Offers</h3>
+                                    <p class="card-text">Find lease, finance and cash offers in your area</p>
+                                    <br>
+                                    <br>
+                                    <a href="#" class="btn btn-outline-success">See options and features</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                                <div class="card card-body h-100">
+                                    <img class="card-img-top" src="./images/automobile-automotive-car-215528.jpg" alt="">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Our Brands</h3>
+                                        <p class="card-text">Choose the best cars for your taste, style and comfort.</p>
+                                        <br>
+                                        <br>
+                                        <a href="#" class="btn btn-outline-success">Check top brands</a>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-md-4">
+                                <div class="card card-body h-100">
+                                    <img class="card-img-top" src="./images/black-car-car-fancy-104401.jpg" alt="">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Test drive</h3>
+                                        <p class="card-text">Find out our test drive schedules</p>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <a href="#" class="btn btn-outline-success">Learn More</a>
+                                    </div>
+                                </div>
+                        </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <h3>The leading luxury suv, now even more refined.</h3>
+                    <br>
+                    <br>
+                     <h5>Explore features</h5>
+                <br>
+                <a href="#" class="btn btn-primary">Learn more</a>
+
+            </div>
+            <div class="col-lg-6">
+                <img src="./images/asphalt-auto-automobile-164634.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+    <br>
+    <table class="table table-bordered">
+        <tr class="table-primary">
+            <th>Specifications</th>
+            <th>2019 Lexus ES 300h</th>
+            <th>2019 BMW 2 Series</th>
+            <th>2019 Ford Explorer</th>
+            <th>2019 Honda CR-V</th>
+        </tr>
+        <tr>
+            <td><h6>Engine power</h6></td>
+            <td>215 hp @ 5700 rpm</td>
+            <td>248 hp @ 5200 rpm</td>
+            <td>290 hp @ 6500 rpm</td>
+            <td>184 hp @ 6400 rpm</td>
+        </tr>
+        <tr>
+            <td><h6>Engine torque</h6></td>
+            <td>Not available</td>
+            <td>258 ft-lbs. @1450 rpm</td>
+            <td>255 ft-lbs. @4000 rpm</td>
+            <td>180 ft-lbs. @3900 rpm</td>
+        </tr>
+        <tr>
+            <td><h6>Engine displacement</h6></td>
+            <td>2.5 I</td>
+            <td>2.0 I</td>
+            <td>3.5 I</td>
+            <td>2.4 I</td>
+        </tr>
+        <tr>
+            <td><h6>Engine configuration</h6></td>
+            <td>Inline 4</td>
+            <td>Inline 4</td>
+            <td>V6</td>
+            <td>Inline 4</td>
+        </tr>
+        <tr>
+            <td><h6>Drivetrain</h6></td>
+            <td>Front wheel drive</td>
+            <td>Rear wheel drive</td>
+            <td>Front wheel drive</td>
+            <td>All wheel drive</td>
+        </tr>
+        <tr>
+            <td><h6>Transmission</h6></td>
+            <td>Continuously variable speed automatic</td>
+            <td>8-speed shiftable automatic</td>
+            <td>6-speed shiftable automatic</td>
+            <td>Continuously variable speed automatic</td>
+        </tr>
+        <tr>
+            <td><h6>Tire size</h6></td>
+            <td>215/55R17</td>
+            <td>205/50R17</td>
+            <td>245/60R18</td>
+            <td>235/65R17</td>
+        </tr>
+        <tr>
+            <td><h6>Wheel size</h6></td>
+            <td>17 X 7.5-in</td>
+            <td>17 X 7.0-in</td>
+            <td>--</td>
+            <td>--</td>
+        </tr>
+        <tr>
+            <td><h6>Wheel type</h6></td>
+            <td>Painted alloy wheels</td>
+            <td>Painted alloy wheels</td>
+            <td>Painted alloy wheels</td>
+            <td>alloy wheels</td>
+        </tr>
+        <tr>
+            <td><h6>Run flat tires</h6></td>
+            <td>Not available</td>
+            <td>Standard</td>
+            <td>Not available</td>
+            <td>Not available</td>
+        </tr>
+    </table>
+    <br>
+    <section class="container">
+            <form id="request">
+                <fieldset>
+                    <legend>Book a test-drive</legend>
+                    <div class="form-group">
+                      <label for="Name">Your Name:</label>
+                      <input type="text" class="form-control" id="username" name="name" placeholder="name">
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Your email:</label>
+                      <input type="email" class="form-control" id="user-email" name="email" placeholder="valid email address">
+                    </div>
+                    <div class="form-group">
+                            <label for="Telephone">Your Mobile Number:</label>
+                            <input type="tel" class="form-control" name="phone" id="phone" placeholder="phone number" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" required>
+                    </div>
+                    <div class="form-check">
+                             <label for="gender"></label>
+                              <input type="radio" class="form-check-input" name="gender" id="gender" value="male" checked="">
+                              male
+                    </div>
+                    <div class="form-check">
+                            <label for="gender"></label>
+                             <input type="radio" class="form-check-input" name="gender" id="gender" value="female">
+                             female
+                   </div><br>
+                   <div class="form-group">
+                        <label for="select">Choose brand to test-drive</label>
+                        <select name="vehicles" class="form-control" id="vehicles">
+                                <option value="2019 Lexus ES 300h">2019 Lexus ES 300h</option>
+                                <option value="2019 BMW 2 Series">2019 BMW 2 Series</option>
+                                <option value="2019 Ford Explorer">2019 Ford Explorer</option>
+                                <option value="2019 Honda CR-V">2019 Honda CR-V</option>
+                        </select>
+                   </div>
+                   <input type="submit" value="submit" class="btn btn-primary">
+                            
+                </fieldset>
+            </form>
+
+        <!-- <form class="form-group">
+               <legend>book a test-drive</legend>
+                Name: <input type="text" name="name" placeholder="name"><br>
+                Email: <input type="email" name="email" placeholder="email address"><br>
+                Telephone: <input type="tel" name="phone" placeholder="phone number" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" required><br>
+                <input type="radio" name="gender" value="male" checked>male<br>
+                <input type="radio" name="gender" value="female">female<br>
+                <select name="vehicles" class="form-control">
+                    <option value="2019 Lexus ES 300h">2019 Lexus ES 300h</option>
+                    <option value="2019 BMW 2 Series">2019 BMW 2 Series</option>
+                    <option value="2019 Ford Explorer">2019 Ford Explorer</option>
+                    <option value="2019 Honda CR-V">2019 Honda CR-V</option>
+                </select><br> -->
+            <!-- <input type="checkbox" name="first-choice" value="2019 Lexus ES 300h">2019 Lexus ES 300h<br>
+            <input type="checkbox" name="second-choice" value="2019 BMW 2 Series">2019 BMW 2 Series <br>
+            <input type="checkbox" name="third-choice" value="2019 Ford Explorer">2019 Ford Explorer <br>
+            <input type="checkbox" name="fourth-choice" value="2019 Honda CR-V">2019 Honda CR-V <br> -->
+                <!-- <input type="submit" value="submit"> -->
+        </form>
+    </section>
+    <br>
+    <footer class="bg-light text-primary">
+        <div class="container-fluid">
+            <div class="row text-align-left">
+                <div class="col-md-3">
+                    <hr class="light">
+                    <a href="#"><h4>Quick links</h4></a>
+                    <hr class="light"><br>
+                    <a href="/about.html"><h5>about</h5></a>                    
+                    <a href="/contact.html"><h5>contact us</h5></a>
+                    <a href="/careers.html"><h5>careers</h5></a>
+                    <a href="/request-brochure.html"><h5>request brochure</h5></a>
+                    <a href="/newsletter.html"><h5>newsletter sign up</h5></a>
+                    <a href="/privacy.html"><h5>privacy</h5></a>
+                    <a href="/legal.html"><h5>legal</h5></a>
+                </div>
+                <div class="col-md-3">
+                    <hr class="light">
+                    <a href="#"><h5>Leasing and finance</h5></a>
+                    <hr class="light">
+                    <br>
+                    <a href="#">apply for credits</a><br>
+                    <a href="#">reward and finance programs</a><br>
+                    <a href="#">end of lease options</a><br>
+                    <a href="#">buy or lease quiz</a><br>
+                </div>
+                <div class="col-md-3">
+                    <hr class="light">
+                    <a href="#"><h5>Service and Warranty</h5></a>
+                    <hr class="light">
+                    <br>
+                    <a href="#">maintenance schedule</a><br>
+                    <a href="#">find a dealer</a><br>
+                    <a href="#">warranty coverage</a><br>
+                    <a href="#">service by lexus</a><br>
+                    <a href="#">lexus tire center</a>
+                </div>
+                <div class="col-md-3">
+                    <hr class="primary">
+                    <a href="#"><h5>Help and Support</h5></a>
+                    <hr class="primary">
+                    <br>
+                    <a href="#">roadside assistance</a><br>
+                    <a href="#">bluetooth</a><br>
+                    <a href="#">navigation</a><br>
+                    <a href="#">maintenace</a><br>
+                    <a href="#">safety faq</a><br>
+                    <a href="#">warranty</a><br>
+                    <a href="#">faq</a>
+                </div>
+            </div>
+            <div class="col-12">
+                    <hr class="light">
+                    <h5>&copy; Bidexauto.com 2019</h5>
+            </div>
+        </div>
+
+    </footer>
+    
+    <script src="main.js"></script>
+    
+</body>
+</html>
